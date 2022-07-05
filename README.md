@@ -10,7 +10,7 @@ robots.txt を用いた URL 検証を行います。
 - 事前準備された robots.txt をコンテナ内の/usr/local/src/robots.txt としてマウント
 
 ```
-docker run -v <robots.txtのpath>:/usr/local/src/robots.txt lizefield/robotstxt:latest robots robots.txt <UserAgent> <URL>
+docker run -v <robots.txtのpath>:/usr/local/src/robots.txt ghcr.io/lizefield/robotstxt:latest robots robots.txt <UserAgent> <URL>
 ```
 
 ### 出力サンプル
